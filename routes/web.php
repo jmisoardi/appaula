@@ -22,7 +22,7 @@
         route::get('curso/create','create');
         route::get('curso/{curso}', 'show');
     });
-
+        /* Prueba cargando datos */
     /* Route::get('curso/{curso}/{categoria?}', function ($curso,$categoria = null) {
         
         if ($categoria) {
